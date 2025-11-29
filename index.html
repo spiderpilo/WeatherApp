@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <style>
+      /* Reset browser margins and make sure it fills the window */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #0d204b; /* dark background for consistency */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- IMPORTANT: since index.html is at the root, 
+         your entry file is inside src/, so the path must be /src/main.jsx -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
